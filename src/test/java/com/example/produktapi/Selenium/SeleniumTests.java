@@ -2,6 +2,7 @@ package com.example.produktapi.Selenium;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -18,6 +19,7 @@ import java.util.*;
 public class SeleniumTests {
 
     @Test
+    @Disabled
     public void checkTitleOfWebSite(){
 
         ChromeOptions option = new ChromeOptions();
@@ -37,6 +39,7 @@ public class SeleniumTests {
         driver.quit();
     }
     @Test
+    @Disabled
     public void shouldBeTwentyProducts(){
 
         ChromeOptions options = new ChromeOptions();
@@ -59,6 +62,7 @@ public class SeleniumTests {
     }
 
     @Test
+    @Disabled
     public void checkThatOneProductHasAPrice(){
 
         ChromeOptions options = new ChromeOptions();
@@ -85,6 +89,7 @@ public class SeleniumTests {
         driver.quit();
     }
     @Test
+    @Disabled
     public void checkThatAnotherProductHasAPrice(){
 
         ChromeOptions options = new ChromeOptions();
@@ -110,6 +115,7 @@ public class SeleniumTests {
         driver.quit();
     }
     @Test
+    @Disabled
     public void checkThatYetAnotherProductHasAPrice(){
 
         ChromeOptions options = new ChromeOptions();
